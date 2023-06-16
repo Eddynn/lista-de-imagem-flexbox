@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.imagens {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    width: 300px;
+    height: 350px;
+}
+
+.rome {
+    position: absolute;
+    left: 3.26%;
+    right: 90.57%;
+    top: 66.33%;
+    bottom: 28.59%;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+
+.michelangelo {
+    position: absolute;
+    left: 3.26%;
+    right: 88.69%;
+    top: 80%;
+    /* Valor ajustado para mover o elemento mais para baixo */
+    bottom: 24.96%;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.boat {
+    position: absolute;
+    left: 3.26%;
+    right: 90.57%;
+    top: 66.33%;
+    bottom: 28.59%;
+  
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    transform-origin: top left;
+    white-space: nowrap;
+  }
+
+.vangogh {
+    position: absolute;
+    left: 3.26%;
+    right: 90.57%;
+    top: 80%;
+    bottom: 28.59%;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    transform-origin: top left;
+    white-space: nowrap;
+}
+
+.sand {
+    position: absolute;
+    left: 3.26%;
+    right: 90.57%;
+    top: 66.33%;
+    bottom: 28.59%;;
+    
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    transform-origin: top left;
+    white-space: nowrap;
+}
+
+.davinci {
+    position: absolute;
+    left: 3.26%;
+    right: 88.69%;
+    top: 80%;
+    bottom: 24.96%;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    transform-origin: top left;
+    white-space: nowrap;
+}
+
+.starry {
+    position: absolute;
+    left: 3.26%;
+    right: 90.57%;
+    top: 66.33%;
+    bottom: 28.59%;;
+    
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    transform-origin: top left;
+    white-space: nowrap;
+}
+
+@media (max-width: 1440px) {
+    .imagens {
+        max-width: 900px;
+        margin: 30px 0;
+    }
+}
